@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+    <div class="card">
+        <h1 class="main-heading">Tourism</h1>
+        <p class="paragraph">Plan your trip.</p>
+        <button class="button">Get Started</button>
+    </div>
+</body>
+
+</html>
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.card {
+    background-image: url("https://img.freepik.com/free-photo/maldives-island_74190-479.jpg?t=st=1651306411~exp=1651307011~hmac=0bd4f5ed041882fca7612211321403a3432f949db9475c6023fbe8083c16dd51&w=740");
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.main-heading {
+    color: red;
+    font-family: lobster;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.paragraph {
+    color: blue;
+}
+
+.button {
+    background-color: lightgreen;
+}
